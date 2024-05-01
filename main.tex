@@ -20,7 +20,7 @@
 \usepackage{hyphenat}
 \usepackage{fontawesome}
 \input{glyphtounicode}
-
+\usepackage{ragged2e}
 
 %---------- FONT OPTIONS ----------
 % sans-serif
@@ -66,7 +66,7 @@
 
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1}
   }
 }
 
@@ -132,19 +132,13 @@
 %---------- HEADING ----------
 
 \begin{center}
-    \textbf{\Huge \scshape Aras Güngöre} \\ \vspace{3pt}
+    \textbf{\Huge \scshape Akhil Bandarupalli} \\ \vspace{3pt}
     \small
-    \faMobile \hspace{.5pt} \href{tel:905314204536}{+90 531 420 4536}
+    \faAt \hspace{.5pt} Email: \href{mailto:abandaru@purdue.edu}{abandaru@purdue.edu}
     $|$
-    \faAt \hspace{.5pt} \href{mailto:arasgungore09@gmail.com}{arasgungore09@gmail.com}
+    \faGlobe \hspace{.5pt} Website: \href{https://akhilsb.github.io}{https://akhilsb.github.io}
     $|$
-    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/arasgungore}{LinkedIn}
-    $|$
-    \faGithub \hspace{.5pt} \href{https://github.com/arasgungore}{GitHub}
-    $|$
-    \faGlobe \hspace{.5pt} \href{https://arasgungore.github.io}{Portfolio}
-    $|$
-    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Bogazici+University+North+Campus/@41.0863067,29.0441352,15z/data=!4m5!3m4!1s0x0:0x9d2497b07c8edb2f!8m2!3d41.0863067!4d29.0441352}{Istanbul, Turkey}
+    \faGithub \hspace{.5pt} Github: \href{https://github.com/akhilsb}{akhilsb}
 \end{center}
 
 
@@ -156,145 +150,92 @@
   \resumeSubHeadingListStart
     
     \resumeEducationHeading
-      {Boğaziçi University
+      {Purdue University, West Lafayette, IN
       % \normalfont{(Admission rate: 0.09\%)}
-      }{Istanbul, Turkey}
-      {B.Sc. in Electrical and Electronics Engineering;   \textbf{GPA: 3.62/4.00}}{Sep 2018 \textbf{--} Jun 2023}
-      {Minor Degree in Computer Science;
-      \textbf{GPA: 3.58/4.00}}{Oct 2020 \textbf{--} Jun 2023}
-        \resumeSubHeadingListStart
-        \small{\item{
-            % \textbf{Relevant coursework:} Materials Science, Electrical Circuits I-II, Digital System Design, Numerical Methods, Probability Theory, Electronics I-II, Signals and Systems, Electromagnetic Field Theory, Energy Conversion, System Dynamics and Control, Communication Engineering, Pattern Recognition, Introduction to Digital Signal Processing, Introduction to Digital Communications, Introduction to Database Systems, Introduction to Image Processing, Machine Vision
-            \textbf{National University Admission Exam (YKS):} Ranked $75^{th}$ in Mathematics and Science among ca. 2.3 million candidates with a test score of 489.92/500. (Jul 2018)}}
-        \resumeSubHeadingListEnd
+      }{Jan 2021 \textbf{--} Dec 2025 (Expected)}
+      {Ph.D. in Computer Science}{}
+      {Advisors: Profs. Saurabh Bagchi and  Aniket Kate}{}
+      
+      \resumeSubheading
+      {Purdue University, West Lafayette, IN}{Aug 2019 \textbf{--} Dec 2020}
+      {M.S. in Computer Science}{}
     
-    % \resumeSubheading
-      % {Kocaeli Science High School
-      % \normalfont{(Admission rate: 0.85\%)}
-      % }{Kocaeli, Turkey}
-      % {High School Diploma;   \textbf{GPA: 97.03/100}}{Sep 2014 \textbf{--} Jun 2018}
+     \resumeSubheading
+       {Indian Institute of Technology, Madras, India}{Jun 2013 \textbf{--} Jul 2017}
+       {B.Tech. in Electrical Engineering}{}
     
   \resumeSubHeadingListEnd
 
+%----------- RESEARCH INTERESTS -----------
+\vspace{2pt}
+\section{Research Interests}
+\justifying{
+I design fault-tolerant distributed computing protocols for blockchains, privacy-preserving computation, and resource-constrained Cyber-Physical Systems. My research aims to improve the practical efficiency of such systems while ensuring they remain secure under harsh network conditions and adversarial attacks. It combines novel distributed computing techniques with cryptography to build protocols with provable security and efficiency. My current research focuses on computationally efficient distributed protocols for Multi-Party Computation, Asynchronous Random Beacons, and Convex Byzantine Agreement. I practically implement my research and aim to produce quality software artifacts that can be employed in real-world applications. %I also demonstrate its efficiency and utility in real-world environments and testbeds. I worked with hardware ranging from geo-distributed clusters on clouds like AWS to resource-constrained edge devices like IoT testbeds. This experience supplants my ability to identify performance bottlenecks, craft specific research problems, and build solutions to address them.  
+}
 
 
-%----------- SKILLS -----------
-
-\section{Skills}
-  \vspace{2pt}
-  \resumeSubHeadingListStart
-    \small{\item{
-        
-        \textbf{Languages:}{ C/C++, C\#, Java, Python, Go, JavaScript, TypeScript, SQL, Swift, Scala, MATLAB, R} \\ \vspace{3pt}
-        
-        \textbf{Technologies:}{ Qt, Flask, Django, Node.js, React.js, MySQL, MongoDB, Git, SVN, Docker, AWS, Kubernetes, GCP, Kafka, RabbitMQ, OpenCV, PyTorch, TensorFlow} \\ \vspace{3pt}
-        
-        \textbf{Methodologies:}{ Agile, Scrum, OOP, Functional Programming, DevOps, CI/CD, TDD} \\ \vspace{3pt}
-        
-    }}
-  \resumeSubHeadingListEnd
-
-
+\justifying{\textbf{Keywords}{: Distributed Computing, Cryptography, Blockchains, Multi-Party Computation, Post-Quantum security,  Distributed Machine Learning, Energy-efficient protocols, Cyber-Physical Systems, Sensor networks}}
 
 %----------- EXPERIENCE -----------
 
 \section{Experience}
-  \vspace{3pt}
-  \resumeSubHeadingListStart
+\vspace{3pt}
+\resumeSubHeadingListStart
 
-    \resumeSubheading
-      {Avikon}{Istanbul, Turkey}
-      {Software Engineer}{Dec 2023 \textbf{--} Present, Full-time}
-        \resumeItemListStart
-            \resumeItem{Designed a Qt-based chat application utilizing TCP for real-time communication within a client-server architecture, demonstrating expertise in socket programming, data serialization, and message routing.}
-            \resumeItem{Crafted message types in IDL and designed a data-centric publish-subscribe architecture based on a flyweight design pattern to implement OpenDDS for a radar system's command and control interface. Utilized QoS policies to facilitate the transmission of both volatile and persistent data across different topics.}
-            \resumeItem{Implemented a fully asynchronous AMQP-based C++ client with a layered architecture for RabbitMQ message broker to ensure seamless message handling among multiple topics.}
-            \resumeItem{Developed a cross-platform asynchronous program to refine UAV detection for a GIS application. Benchmarked point-in-polygon algorithms with a GeoJSON polygon database concurrently fetched from MongoDB.}
-        \resumeItemListEnd
+\resumeSubheading
+{Purdue University, West Lafayette, IN}{Sep 2020 \textbf{--} Present}
+{Graduate Research Assistant}{(Saurabh Bagchi and Aniket Kate)}
+\resumeItemListStart
+\resumeItem{Working on developing computationally efficient and Post-Quantum secure protocols for Multi-Party Computation.}
+\resumeItem{Working on developing efficient Convex Byzantine Agreement protocols for Cyber-Physical Systems.}
+\resumeItem{Implemented protocols and evaluated them in self-assembled embedded device testbeds and online clusters on clouds.}
+\resumeItemListEnd
 
-    \resumeSubheading
-      {SemperTech}{Istanbul, Turkey}
-      {Software Engineer}{Sep 2023 \textbf{--} Dec 2023, Full-time}
-        \resumeItemListStart
-            \resumeItem{Worked on the “Arçelik Digital Home Energy” project in a collaborative effort with DAI-Labor at the Technical University of Berlin under the supervision of \href{https://www.linkedin.com/in/prof-dr-dr-h-c-sahin-albayrak-65452a1/}{\color{blue}Prof. Dr. Şahin Albayrak}.}
-            \resumeItem{Simulated discovery, pairing, and data exchange processes using the EEBUS protocol suite with C\# and Go. Migrated the framework from Go to C++ in order to ensure future adaptability for smart home IoT devices.}
-            \resumeItem{Implemented the TLS protocol for secure data exchange using the X.509 standard and integrated multicast DNS for seamless communication to complement the development of SHIP and SPINE protocols.}
-        \resumeItemListEnd
+\resumeSubheading
+{Adobe Research, San Jose, CA}{May 2021 \textbf{--} Aug 2021}
+{Research Intern}{(Haoliang Wang)}
+\resumeItemListStart
+\resumeItem{Designed a framework to reduce storage costs of Deep Learning Training (DLT) jobs.}
+\resumeItem{Utilized AWS Spot instances to store datasets and reduced storage costs by over 50\% for long-running training jobs}
+\resumeItemListEnd
 
-    % \resumeSubheading
-      % {Scale AI}{San Francisco, California, United States (Remote)}
-      % {Prompt Engineer}{Mar 2023 \textbf{--} Sep 2023, Freelance}
-        % \resumeItemListStart
-            % \resumeItem{Crafted elaborate Turkish prompts for various generative AI tasks. Tailored prompts using well-defined formats such as natural language questions and structured inputs based on the task's domain to fine-tune the LLM, improving the chatbot's responses and enhancing overall performance.}
-            % \resumeItem{Provided user feedback by reviewing and scoring the chatbot's responses to ensure they align with intended chatbot behaviors and the chatbot produces accurate and contextually appropriate responses to given prompts.}
-            % \resumeItem{Engaged in collaborative meetings with cross-functional teams and project coordinators, actively seeking guidance, addressing queries, and collectively brainstorming strategies to generate higher-quality prompts.}
-        % \resumeItemListEnd
+\resumeSubheading
+{Amazon Web Services, Dallas, TX}{May 2020 \textbf{--} Aug 2020}
+{Software Development Intern}{(Tom Jacobs)}
+\resumeItemListStart
+\resumeItem{Developed a data quality framework to introduce transparency in the data pipelining process of the team.}
+\resumeItemListEnd
 
-    \resumeSubheading
-      {Max Planck Institute for Intelligent Systems}{Stuttgart, Baden\textbf{-}Württemberg, Germany}
-      {Undergraduate Researcher}{Jun 2022 \textbf{--} Aug 2022, Internship}
-        \resumeItemListStart
-            \resumeItem{Engaged in collaborative research within the Robotics, Collectives and Learning subgroup at the Physical Intelligence Department with Ph.D. students \href{https://www.linkedin.com/in/sinan-ozgun-demir-981311129/}{\color{blue}Sinan Özgün Demir} and \href{https://www.linkedin.com/in/alpkaracakol/}{\color{blue}Alp Can Karacakol} on a project about 3D printing and heat-assisted magnetic programming of soft machines under the supervision of \href{https://www.linkedin.com/in/metin-sitti-0a8a712/}{\color{blue}Prof. Dr. Metin Sitti}.}
-            \resumeItem{Optimized a C++ ROS package for real-time conversion of 3D motion controller events to ROS messages, achieving high-frequency and buffer-free synchronization.}
-            \resumeItem{Developed an Arduino Mega driver to activate a laser and pressure regulator, for monitoring coil temperatures and PID tuning to control the coil currents. Established a robust ROS-Arduino communication network by integrating ROSSerial and handshaking to simulate a 3D printing and magnetic programming process with Python.}
-            % \resumeItem{Designed the project's system and software architecture, flowchart, and state machine diagram. Expanded G-code capabilities by incorporating spherical coordinates to specify the direction of magnetization for shape morphing.}
-        \resumeItemListEnd
-    
-    % \resumeSubheading
-      % {Nanonetworking Research Group, Boğaziçi University}{Istanbul, Turkey}
-      % {Undergraduate Researcher}{Oct 2021 \textbf{--} Jun 2022, Part-time}
-        % \resumeItemListStart
-            % \resumeItem{Worked on the “Design and Implementation of Molecular Communication Systems Using Index Modulation” project under the supervision of \href{https://www.linkedin.com/in/alipusane/}{\color{blue}Prof. Dr. Ali Emre Pusane}.}
-            % \resumeItem{Simulated the Brownian motion of molecules in a SISO MCvD system and predicted simulation parameters such as receiver radius, diffusion coefficient, and transmitter-receiver distance using CNNs with Keras and TensorFlow.}
-            % \resumeItem{Plotted the arrival of molecules per symbol duration in a SISO MCvD system using Binomial, Poisson, and Gaussian model approximations with MATLAB.}
-            % \resumeItem{Ran Monte Carlo simulations of the Gaussian model to encode and decode randomized binary sequences in a SISO MCvD system using BCSK modulation technique and calculated the bit error rate on Z-channel.}
-        % \resumeItemListEnd
+\resumeSubheading
+{Open Insights, Pune, India}{Jul 2017 \textbf{--} Jun 2019}
+{Senior Engineer}{}
+\resumeItemListStart
+\resumeItem{Developed a data ingestion framework using Apache NiFi, Kafka, Spring Boot, and HDFS. }
+\resumeItem{Developed a stream data profiler using Apache Spark Streaming and Spring Boot.}
+\resumeItemListEnd
 
-    % \vspace{20pt}
-    \resumeSubheading
-      {SESTEK Speech Enabled Software Technologies}{Istanbul, Turkey}
-      {AI Research and Development Intern}{Jan 2022 \textbf{--} Feb 2022, Internship}
-        \resumeItemListStart
-            % \resumeItem{Executed diverse NLP tasks, including NER, POS tagging, sentiment analysis, text classification, and extractive and generative QA using transformers and Hugging Face libraries. Conducted a thorough literature review on information retrieval and reading comprehension to stay updated on SOTA ML models.}
-            \resumeItem{Developed a generative QA system with dense passage retrieval (DPR) and retrieval-augmented generation (RAG) techniques using the Haystack framework and PyTorch.}
-            \resumeItem{Worked on a Turkish open-domain QA system made by fine-tuning BERTurk and XLM-Roberta models. Tabularized exact match and F1 scores derived from DeepMind's XQuAD and various Turkish data sets.}
-        \resumeItemListEnd
+\resumeSubHeadingListEnd
 
-    % \resumeSubheading
-      % {Meteksan Defense Industry Inc.}{Ankara, Turkey}
-      % {Analog Design Engineering Intern}{Jul 2021 \textbf{--} Aug 2021, Internship}
-        % \resumeItemListStart
-            % \resumeItem{Designed and simulated numerous analog circuits such as voltage-mode controlled buck converter, phase-shifted full-bridge isolated DC-DC converter, and EMI filters with LTspice. Integrated these circuits and implemented a 320 W power distribution unit to be used in a radar system's power circuit board.}
-            % \resumeItem{Researched real-world compatible electronic components to be used in such circuits including GaNFETs, high-side gate drivers, and Schottky diodes.}
-            % \resumeItem{Assembled PCBs of both common and differential mode filters and used VNA Bode 100 to measure the cut-off frequencies.}
-        % \resumeItemListEnd
-    
-  \resumeSubHeadingListEnd
+\section{Publications}
+\begin{enumerate}
+	\item Akhil Bandarupalli, Adithya Bhat, Saurabh Bagchi, Aniket Kate, Chen-Da Liu-Zhang, and Michael Reiter. Delphi: Efficient Asynchronous Approximate Agreement for Distributed Oracles. \textit{To Appear at} 54th Annual IEEE/IFIP Conference on Dependable Systems and Networks (DSN), June 2024.
+	\item Akhil Bandarupalli, Adithya Bhat, Saurabh Bagchi, Aniket Kate, and Michael Reiter. Random Beacons in Monte Carlo: Efficient Asynchronous Random Beacons without Threshold Cryptographic Setup. \textit{To Appear at} 31st ACM Conference on Computer and Communications Security (CCS), November 2024.
+	\item Akhil Bandarupalli, Adithya Bhat, Somali Chaterji, Michael Reiter, Aniket Kate, and Saurabh Bagchi. SensorBFT: Energy-Efficient Target Localization for wide-area surveillance. \textit{To Appear at} 44th IEEE International Conference on Distributed Computing Systems (ICDCS), July 2024.
+	\item Adithya Bhat, Akhil Bandarupalli, Manish Nagaraj, Saurabh Bagchi, Aniket Kate, and Michael K. Reiter. EESMR: Energy Efficient BFT---SMR for the masses. In Proceedings of the 24th International Middleware Conference, pp. 1-14. 2023.
+	\item Adithya Bhat, Akhil Bandarupalli, Saurabh Bagchi, Aniket Kate, and Michael K. Reiter. The Unique Chain Rule and its Applications. In International Conference on Financial Cryptography and Data Security, pp. 38-55, 2023.
+	\item Akhil Bandarupalli, Sarthak Jain, Akash Melachuri, Joseph Pappas, and Somali Chaterji. Vega: Drone-based Multi-Altitude Target Detection for Autonomous Surveillance. In 19th International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT), pp. 209-216. IEEE, 2023. 
+\end{enumerate}
 
+\section{Software Artifacts}
+\resumeSubHeadingListStart
+\resumeItem{\textbf{Delphi}: Implemented the \textit{Delphi} Convex BA protocol (DSN'24), and FIN Asynchronous Common Subset (ACS) protocol in Rust. Code available at \href{https://github.com/akhilsb/delphi-rs}{https://github.com/akhilsb/delphi-rs}.}
+\resumeItem{\textbf{HashRand}: Implemented \textit{HashRand}, the asynchronous random beacon protocol (CCS'24), and Dfinity-DVRF, the beacon based on Threshold BLS signatures in Rust. Code available at \href{https://github.com/akhilsb/hashrand-rs}{https://github.com/akhilsb/hashrand-rs}. }
+\resumeItem{\textbf{Asynchronous Post-Quantum State Machine Replication (PQ-SMR)}}: Implemented \textit{PQ-Tusk} (CCS'24), A PQ-secure asynchronous SMR protocol (CCS'24) in Rust. Code available at \href{https://github.com/akhilsb/pqsmr-rs}{https://github.com/akhilsb/pqsmr-rs}. 
+\resumeItem{\textbf{SensorBFT}: Implemented \textit{SensorBFT} (ICDCS'24), the asynchronous target localization protocol in Rust. Assembled a testbed of 20 Raspberry-Pi devices to evaluate the protocol. Code available at \href{https://github.com/akhilsb/sensorbft-rs}{https://github.com/akhilsb/sensorbft-rs}. Testbed access available upon request.}
+\resumeItem{\textbf{EESMR}: Implemented \textit{EESMR} (Middleware'23) and \textit{Sync HotStuff}, both synchronous SMR protocols, in CPP. Assembled a testbed of 10 NUCLEO F401-RE devices to measure energy consumed by both protocols. Code available at \href{https://github.com/akhilsb/E2C-BLE}{https://github.com/akhilsb/E2C-BLE}.}
 
-
-%----------- AWARDS & ACHIEVEMENTS -----------
-
-\section{Awards \& Achievements}
-  \vspace{2pt}
-  \resumeSubHeadingListStart
-    \small{\item{
-        \textbf{High Honors Degree:}{ Awarded to Bachelor alumni who have graduated with a GPA greater than or equal to 3.50 by Boğaziçi University. (Jul 2023)} \\ \vspace{3pt}
-
-        \textbf{TÜBİTAK 2247-C Intern Researcher Scholarship:}{ Awarded to students who take part in research projects carried out by the Scientific and Technological Research Council of Turkey (TÜBİTAK). (Dec 2021 \textbf{--} Jun 2022)} \\ \vspace{3pt}
-    
-        % \textbf{National University Admission Exam (YKS):}{ Ranked $75^{th}$ in Mathematics and Science among ca. 2.3 million candidates with a test score of 489.92/500. (Jul 2018)} \\ \vspace{3pt}
-        
-        \textbf{KYK Outstanding Success Scholarship:}{ Awarded to students who have been ranked in the top 100 on National University Admission Exam by Higher Education Credit and Hostels Institution (KYK). (Sep 2018 \textbf{--} Jun 2023)} \\ \vspace{3pt}
-        
-        % \textbf{Boğaziçi University Success Scholarship:}{ Awarded to students who have been ranked in the top 100 on National University Admission Exam by Boğaziçi University. (Sep 2018 \textbf{--} Jun 2023)} \\ \vspace{3pt}
-        
-        \textbf{Kocaeli Science High School Valedictorian Award:}{ Graduated as the highest ranked student. (Jun 2018)}
-    }}
-  \resumeSubHeadingListEnd
-
-
-
+\resumeSubHeadingListEnd
+  
 %----------- PROJECTS -----------
 
 \section{Projects}
@@ -302,27 +243,84 @@
     \resumeSubHeadingListStart
       
       \resumeProjectHeading
-        {\textbf{Filters and Fractals} $|$ \emph{\href{https://github.com/arasgungore/filters-and-fractals}{\color{blue}GitHub}}}{}
+        {\textbf{Delphi: Asynchronous Convex Agreement for Oracles} $|$ \emph{\href{https://github.com/akhilsb/delphi-rs/}{\color{blue}GitHub}}}{}
           \resumeItemListStart
-            \resumeItem{A C project which implements a variety of image processing operations that manipulate the size, filter, brightness, contrast, saturation, and other properties of PPM images from scratch and recursive fractal generation functions to model popular fractals including Mandelbrot set, Julia set, Koch curve, Barnsley fern, and Sierpinski triangle.}
+            \resumeItem{Designed and developed Delphi, a computationally efficient Asynchronous Convex Byzantine Agreement protocol for Oracle applications. Paper accepted to DSN'24.}
+            \resumeItem{Proposed a new technique to improve communication complexity while not sacrificing computational efficiency.}
+            \resumeItem{Implemented a distributed system in Rust to evaluate performance in two settings: A geo-distributed testbed in AWS, and an embedded system testbed on Raspberry Pi devices.}
+            \resumeItem{Delphi has 8x and 3x lesser latency than prior  protocols in the Raspberry Pi and AWS testbeds.}
           \resumeItemListEnd
       
       \resumeProjectHeading
-        {\textbf{Chess Bot} $|$ \emph{\href{https://github.com/arasgungore/chess-bot}{\color{blue}GitHub}}}{}
+        {\textbf{HashRand: Efficient Asynchronous Random Beacon without Threshold Setup} $|$ \emph{\href{https://github.com/akhilsb/hashrand-rs}{\color{blue}GitHub}}}{}
           \resumeItemListStart
-            \resumeItem{A C++ project in which you can play chess against an AI with a specified decision tree depth that uses alpha-beta pruning algorithm to predict the optimal move. Aside from basic moves, this mini chess engine also implements chess rules such as castling, en passant, fifty-move rule, threefold repetition, and pawn promotion.}
+            \resumeItem{Designed HashRand, a computationally efficient random beacon protocol that avoids computationally expensive Discrete Log cryptography and uses only lightweight cryptography like Hash functions. Paper accepted to CCS’24.}
+            \resumeItem{HashRand is the first beacon protocol to work in an asynchronous network, the first Post-Quantum secure beacon, and the first beacon protocol that does not require a Public Key Infrastructure (PKI)}
+            \resumeItem{Implemented HashRand in Rust and evaluated it in a geo-distributed testbed on AWS with up to 160 machines, where it generated beacons at 5x the throughput of the prior State-of-the-art beacon protocol.}
+            \resumeItem{Utilized HashRand to develop the first BFT asynchronous State Machine Replication (SMR) that is Post-Quantum Secure. }
           \resumeItemListEnd
       
       \resumeProjectHeading
-        {\textbf{DS\&A Projects} $|$ \emph{\href{https://github.com/arasgungore/CMPE250-projects}{\color{blue}GitHub}}}{}
+        {\textbf{SensorBFT: Energy Efficient BFT Convex Agreement for Low-Powered Sensor Devices} $|$ \emph{\href{https://github.com/akhilsb/sensorbft-rs}{\color{blue}GitHub}}}{}
           \resumeItemListStart
-            \resumeItem{Five Java projects that apply DS\&A concepts such as discrete-event simulation using priority queues, Dijkstra's shortest path algorithm, Prim's algorithm to find the minimum spanning tree, Dinic's algorithm for maximum flow problems, and weighted job scheduling with dynamic programming to real-world problems.}
+            \resumeItem{Proposed SensorBFT, an energy-efficient Approximate Agreement protocol that avoids energy-expensive cryptography. Paper accepted to ICDCS’24.}
+            \resumeItem{Utilized a novel technique to trade off accuracy offered by the protocol for communication and energy efficiency.}
+            \resumeItem{Employed higher-order Voronoi diagrams to effectively scale the system over large geographic areas.}
+            \resumeItem{Implemented the protocol in Rust and evaluated it in a self-assembled embedded system testbed, where it demonstrated over 50\% energy savings compared to the prior State-of-the-art protocol.}
           \resumeItemListEnd
       
-    \resumeSubHeadingListEnd
+      
+     \resumeProjectHeading
+      {\textbf{Vega: Multi-Altitude Target Detection for Drone-based Autonomous Surveillance} $|$ \emph{\href{https://github.com/icanforce/Vega-Multi-Alt-Detection-2023}{\color{blue}GitHub}}}{}
+      \resumeItemListStart
+      \resumeItem{Designed Vega, a Drone-based autonomous surveillance system that uses drones equipped with cameras to detect target objects in the area.}
+      \resumeItem{Employed EfficientDet, a Deep-Learning based object detection program, to detect cars in a parking lot.}
+      \resumeItem{Created a drone deployment system that uses covered area, detection latency, and detection quality as tunable parameters.}
+      \resumeItem{Achieved an improved Pareto frontier between these parameters using two custom Drone maneuvers called DroneZoom and DroneCycle.}
+      \resumeItemListEnd
+	
+	\resumeProjectHeading{\textbf{EESMR: Energy-Efficient Consensus for Cyber-Physical Systems} $|$ \emph{\href{https://github.com/akhilsb/E2C-BLE/}{\color{blue}GitHub}}}{}
+	\resumeItemListStart
+	\resumeItem{Implemented an energy-efficient Byzantine State Machine Replication (SMR) protocol on NUCLEO-F401RE ARM-Cortex microprocessor using MBed-OS. Paper accepted to Middleware'23. 
+	}
+	\resumeItem{Used Bluetooth Low Energy (BLE) and the k-cast model to achieve communication between processors.}
+	\resumeItemListEnd
+	
+	\resumeProjectHeading{\textbf{Side Channel Cryptanalysis of AES-128}}{}
+	\resumeItemListStart
+	\resumeItem{Conducted cryptanalysis of AES-128 running on a 22nm FPGA with a high probability by analyzing the power consumption of the chip.
+	}
+	\resumeItem{Used a co-variance optimized moving average filter to create templates from traces and attacked the cipher using three different template-matching algorithms. }
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
 
+%----------- SKILLS -----------
+\section{Important Coursework}
+\vspace{2pt}
+Distributed Systems, Randomized Algorithms, Blockchains and Cryptocurrencies, Cryptography, Distributed Convex Optimization, Network Security, Security Analytics, Data Structures and Algorithms. 
+	
+% ---------- ACADEMIC SERVICE -------------
+\section{Academic Service}
+\resumeSubHeadingListStart
+\resumeProjectHeading{External Review Committee (ERC) member for USENIX ATC'24}{}
+\resumeProjectHeading{External Reviewer for the following}{}
+\resumeItemListStart
+\resumeItem{2024 - S\&P'24, CCS'24, FC'24, EuroSys'24, ICDCS'24}
+\resumeItem{2023 - S\&P'23, AsiaCCS'23}
+\resumeItem{2022 - ATC'22, CSF'22, NeurIPS'22, ICML'22}
+\resumeItem{2021 - DSN'21}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 
-
+\section{Academic References}
+\resumeSubHeadingListStart
+\resumeSubheading{Saurabh Bagchi}{\href{mailto:sbagchi@purdue.edu}{sbagchi@purdue.edu}}{Professor in the Department of Electrical and Computer Engineering}{Purdue University}
+\resumeEducationHeading{Aniket Kate}{\href{mailto:aniket@purdue.edu}{aniket@purdue.edu}}
+{Associate Professor in the Department of Computer Science}{Purdue University}{Chief Research Officer}{Supra Research}
+\resumeSubheading{Chen-Da Liu-Zhang}{\href{mailto:chen-da.liuzhang@hslu.ch}{chen-da.liuzhang@hslu.ch}}{Faculty member}{Lucerne University of Applied Sciences and Arts}
+\resumeSubheading{Chester Rebeiro}{\href{mailto:chester@cse.iitm.ac.in}{chester@cse.iitm.ac.in}}{Associate Professor}{Indian Institute of Technology, Madras}
+\resumeSubheading{Michael K. Reiter}{\href{mailto:michael.reiter@duke.edu}{michael.reiter@duke.edu}}{James B. Duke Distinguished Professor in Departments of CS and ECE}{Duke University}
+\resumeSubHeadingListEnd
 %----------- RELEVANT COURSEWORK -----------
 
 % \section{Relevant Coursework}
